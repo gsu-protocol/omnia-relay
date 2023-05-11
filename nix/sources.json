@@ -59,41 +59,52 @@
         "url": "https://github.com/NixOS/nixpkgs/archive/ee084c02040e864eeeb4cf4f8538d92f7c675671.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "nixpkgs2": {
+ "nixpkgs2": {
         "branch": "nixpkgs-unstable",
         "description": "Nix Packages collection",
         "homepage": "",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "3a86856a13c88c8c64ea32082a851fefc79aa700",
+        "rev": "4d2b37a84fad1091b9de401eb450aae66f1a741e",
         "sha256": "04dd4g24061p8sw922zjickahqwn3wa9l3j5qllfzp5n6dy9is16",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/3a86856a13c88c8c64ea32082a851fefc79aa700.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/refs/tags/22.11.zip",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "oracle-suite": {
-        "branch": "v0.9.1",
-        "description": null,
-        "homepage": null,
-        "owner": "chronicleprotocol",
-        "repo": "oracle-suite",
-        "rev": "948262fc6a377472c2b3157a7f18520c74dc3265",
-        "sha256": "1q37928h1d44j0mv19jks56glx155bg292h8wrpfdqq6wbmfrdwy",
-        "type": "tarball",
-        "url": "https://github.com/chronicleprotocol/oracle-suite/archive/948262fc6a377472c2b3157a7f18520c74dc3265.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "setzer": {
-        "branch": "v0.8.0",
+"omnia": {
+        "branch": "master",
         "description": null,
         "homepage": "",
-        "owner": "chronicleprotocol",
-        "repo": "setzer",
-        "rev": "9e70a93e789dd540cd802dde47ad559c28460393",
-        "sha256": "0qjm261m6psyc5i28hlwz0nn1q3z7bvy79pp70xpn6fb112j8dq0",
-        "type": "tarball",
-        "url": "https://github.com/chronicleprotocol/setzer/archive/9e70a93e789dd540cd802dde47ad559c28460393.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
-        "version": "0.8.0"
+        "owner": "gsu-protocol",
+        "repo": "https://github.com/gsu-protocol/omnia.git",
+        "rev": "b0c51fb54499710e37cdbfda5d9a121ce4154984",
+        "sha256": "b0c51fb54499710e37cdbfda5d9a121ce4154984",
+        "type": "git",
+        "url": "https://github.com/gsu-protocol/omnia.git",
+        "url_template": "<repo>"
+    },
+"oracle-suite": {
+        "branch": "master",
+        "description": null,
+        "homepage": "",
+        "owner": "gsu-protocol",
+        "repo": "https://github.com/gsu-protocol/oracle-suite.git",
+        "rev": "dd5c87025a11c0611372cedbeb4fe2d5bb0a245c",
+        "sha256": "2f8b15783d664bf7f52d0c17029a2c6fe3a62ad3",
+        "type": "git",
+        "url": "https://github.com/gsu-protocol/oracle-suite.git",
+        "url_template": "<repo>"
+    },
+    "setzer": {
+        "branch": "master",
+        "description": null,
+        "homepage": "",
+        "owner": "block360",
+        "repo": "https://github.com/block360/setzer-2.git",
+        "rev": "e0b9a586006fb40caba286b654f23ef906fa50d4",
+        "sha256": "",
+        "type": "git",
+        "url": "https://github.com/block360/setzer-2.git",
+        "url_template": "<repo>"
     }
 }

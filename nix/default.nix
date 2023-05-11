@@ -30,7 +30,7 @@ in rec {
     '';
   };
 
-  oracle-suite = pkgs.callPackage sources.oracle-suite { buildGoModule = nixpkgs2.buildGo118Module; };
+  oracle-suite = pkgs.callPackage sources.oracle-suite { buildGoModule = nixpkgs2.buildGo119Module; };
   setzer = pkgs.callPackage sources.setzer { };
   ethsign = pkgs.callPackage (import ../ethsign) { };
   foundry = pkgs.callPackage (import ../foundry) { inherit (nixpkgs2) pkgs; };
